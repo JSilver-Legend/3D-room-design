@@ -1,0 +1,64 @@
+.main-container {
+  display: flex;
+  width: 100%;
+  height: 100%;
+}
+
+.model-select-btn-area {
+  position: absolute;
+  top: 5px;
+  left: 5px;
+}
+
+.canvas-area {
+  margin-left: 5px;
+  background-image: url("../assets/image/background/1.jpg");
+  background-color: aqua;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.side-bar {
+  width: 400px;
+  padding: 30px;
+  white-space: pre-wrap;
+  overflow-y: auto;
+}
+
+.model-name-text {
+  font-weight: 800;
+  font-size: large;
+}
+
+.option-title-text {
+  font-weight: 600;
+}
+
+.texture-container {
+  display: flex;
+  border-radius: 5%;
+  padding: 10px;
+  gap: 20px;
+  overflow-x: auto;
+  background-color: rgba(100, 100, 100, 0.137);
+}
+
+.texture-img {
+  border-radius: 10%;
+  border: 3px solid rgb(237, 237, 237);
+  box-shadow: 5px 10px 5px grey;
+  opacity: 0.5;
+}
+
+.texture-img:hover {
+  cursor: pointer;
+  opacity: 1;
+}
+
+.texture-img-active {
+  cursor: pointer;
+  border: 3px solid rgb(255, 123, 123);
+  opacity: 1;
+}
